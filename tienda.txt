@@ -1,0 +1,10 @@
+CREATE TABLE productos(
+id INT NOT NULL AUTO_INCREMENT,
+nombre varchar(100) null,
+descripcion varchar(500) null,
+precio varchar(30) null,
+stock varchar(30) null,
+imagen varchar(30) null,
+fecha date null,
+primary key(id)
+);

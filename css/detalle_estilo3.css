@@ -1,0 +1,46 @@
+body{
+	background-image: url("../img/fondo2.png");
+	font: 20px MiFuente, sans-serif;
+	padding:80px 20%;
+}
+@font-face{
+	font-family: 'MiFuente';
+	src: url('../fuente/ZillaSlab-Regular.otf');
+}
+.contenedor{
+	background-color:  #3498db;
+	width: 700px;
+	height: 500px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	font-size: 20px;
+	border: 1px solid gray;
+}
+.cajasola{
+	background: white;
+	float: left;
+	width: 250px;
+	height: 350px;
+	padding: 10px;
+	margin:20px;
+	margin-right: 60px;
+	margin-left: 40px;
+	text-align: center;
+	border: 1px solid #E2E2E2;
+	border-radius: 10px;
+}
+
+.cajaDes{
+	border: 2px solid black;
+	background: white;
+	float: left;
+	width: 250px;
+	height: 350px;
+	margin:20px;
+	padding: 10px;
+	text-align: left;
+	border: 0px solid #E2E2E2;
+	border-radius: 10px;
+
+}
